@@ -1,0 +1,13 @@
+random_state: 42
+test_size: 0.20
+validation_size: 0.20
+calibration_cv: 3
+final_calibration_cv: 5
+classification_threshold: 0.50
+challenger:
+  learning_rate: 0.06
+  max_iter: 180
+  max_leaf_nodes: 15
+  min_samples_leaf: 40
+  l2_regularization: 1.0
+

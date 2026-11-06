@@ -1,0 +1,19 @@
+currency: TWD
+lgd: 0.60
+annual_interest_rate: 0.15
+operating_cost_rate: 0.02
+approve_pd_max: 0.05
+reject_pd_min: 0.20
+severe_delinquency_months: 3
+review_delinquency_months: 2
+score:
+  base_score: 600
+  base_good_to_bad_odds: 20
+  points_to_double_odds: 50
+recommended_limit_multiplier:
+  A: 1.00
+  B: 0.90
+  C: 0.65
+  D: 0.35
+  E: 0.00
+
